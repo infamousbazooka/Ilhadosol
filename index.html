@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta charset="UTF-8">
+	<link rel="icon" href="icon.svg" sizes="16x16" type="image/svg">
+	<meta name="author" content="Magnus Fernandes">
+	<meta name="description" content="The official website of Aashna Kuncolienkar.">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Ilhadosol</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -10,8 +13,8 @@
 	<div class="mainwrapper">
 		<div class="menu">
 			<ul>
-				<li><span><h2>HOME</h2></span></li>
-				<li><span><h2>GALLERY</h2></span></li>
+				<li class="active"><span><h2>HOME</h2></span></li>
+				<li><span><h2>PLAN</h2></span></li>
 				<li><span><h2>CONTACT</h2></span></li>
 			</ul>
 		</div>
@@ -73,13 +76,25 @@
 				<div class="image">
 					<img class="img-responsive" src="images/banner.jpg" alt="Ilha do Sol">
 				</div>
-				<section>
-					<p>Ownership of an unique asset class on the Island is now open for enquires.</p>
-				</section>
+				<div class="call">
+					<h4>Ownership of an unique asset class on the Island is now open for enquires.</h4>
+					<h4>Call: Mr. A. D. Sardesai +91-9822486109</h4>
+				</div>
 			</article>
+		</section>
+		<section class="footer">
+			<h4>Powered by <a href="http://www.amberzile.com" target="_blank"><span>Amber<span>Zile</span></span></a></h4>
 		</section>
 	</div>
 	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/jquery.scrollorama.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		$(document).ready(function() {
+		    var scrollorama = $.scrollorama({
+		        blocks:'.scrollblock'
+		    });
+		});
+	</script>
 </body>
 </html>
