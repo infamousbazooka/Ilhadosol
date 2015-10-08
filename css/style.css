@@ -28,6 +28,9 @@ body{
 	display: block;
 	background-color: #f1c40f;
 }
+section{
+	width: 100%;
+}
 .img-responsive{
 	width: 100%;
 	vertical-align: middle;
@@ -159,7 +162,7 @@ body{
 	vertical-align: middle;
 }
 .footer{
-	padding: 1%;
+	padding: 1% 0;
 	background-color: #222d2f;
 	color: #fff;
 }
