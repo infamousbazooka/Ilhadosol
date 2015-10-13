@@ -36,7 +36,6 @@ section{
 	width: 100%;
 }
 header{
-	position: fixed;
 	width: 98%;
 	padding: 1%;
 	background-color: #222d2f;
@@ -77,104 +76,6 @@ header div{
 }
 .active:hover{
 	border-bottom: 3px solid #f1c40f !important;
-}
-.one{
-	background-color: rgba(34,34,34,0.7);
-}
-.one .center{
-	vertical-align: middle;
-	display: inline-block;
-	line-height: normal;
-	width: 70%;
-}
-.one h1{
-	font-size: 350%;
-	border-bottom: 2px solid #f1c40f;
-	text-align: left;
-}
-.one h3{
-	font-size: 150%;
-	text-align: right;
-}
-.two{
-	background-color: #f1c40f;
-	display: block;
-}
-.two div{
-	display: inline-block;
-}
-.two .left{
-	width: 34%;
-	padding: 4% 3%;
-	vertical-align: top;
-}
-.two .left h1{
-	font-size: 300%;
-	color: #222d2f;
-}
-.two .left h3{
-	font-size: 150%;
-	text-align: justify;
-}
-.two .right{
-	width: 59.5%;
-	padding: 4% 0;
-}
-.two img{
-	min-height: 370px;
-	border: 4px solid #fff;
-	border-right: none;
-	border-left: none;
-}
-.third{
-	display: block;
-	padding: 3% 2%;
-	width: 96%;
-	background-color: #222d2f;
-}
-.third div{
-	display: inline-block;
-}
-.third .left{
-	width: 60%;
-}
-.third .images{
-	display: block;
-}
-.third img{
-	display: inline-block;
-	width: 45.6%;
-	margin: 2%;
-}
-.third .right{
-	vertical-align: top;
-	width: 96%;
-}
-.third h1, .third h2{
-	text-align: left;
-}
-.third a span{
-	border: 2px solid #fff;
-	float: left;
-	margin: 1% 0;
-	padding: 1%;
-	background-color: #f1c40f;
-}
-.third a span:hover{
-	background-color: #222d2f;
-	color: #fff;
-}
-.third ul{
-	display: block;
-	width: 90%;
-	padding: 1% 5%;
-}
-.third li{
-	display: inline-block;
-	width: 43%;
-	padding: 2% 1%;
-	margin: 1% 2%;
-	background-color: #e67e22;
 }
 .fourth{
 	background-color: #f1c40f;
@@ -232,7 +133,4 @@ form input, form textarea{
 }
 .footer span:hover > span{
 	color: #27ae60;
-}
-.third, .three{
-	display: none;
 }

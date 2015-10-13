@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="../icon.svg" sizes="16x16" type="image/svg">
+	<meta name="author" content="Magnus Fernandes">
+	<meta name="description" content="The official website of Aashna Kuncolienkar.">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Ilhadosol</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="mainwrapper">
+		<header>
+			<div class="logo">
+				<h1>Ilha do Sol</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li id="home"><a href="../"><span><h2>HOME</h2></span></a></li>
+					<li class="active" id="plan"><a href="../Plan/"><span><h2>PLAN</h2></span></a></li>
+					<li id="contact"><a href="../Contact/"><span><h2>CONTACT</h2></span></a></li>
+				</ul>
+			</div>
+		</header>
+		<section class="third">
+			<div class="left">
+				<div class="images">
+					<img src="../images/ground_floor.jpg" alt="">
+					<img src="../images/first_floor.jpg" alt="">
+				</div>
+			</div>
+			<div class="right">
+				<h1>FLOOR PLANS</h1>
+				<h2>212 sq.mts.</h2>
+				<a href="images/plan.jpg" target="_blank"><span>DOWNLOAD</span></a>
+				<ul>
+					<li><span><h4>Spacious 3 BHK with modern interiors.</h4></span></li>
+					<li><span><h4>Comfortable living & dining.</h4></span></li>
+					<li><span><h4>Large balconies.</h4></span></li>
+					<li><span><h4>Green open spaces.</h4></span></li>
+					<li><span><h4>Open to sky terraces.</h4></span></li>
+					<li><span><h4>Car porch.</h4></span></li>
+				</ul>
+			</div>
+		</section>
+		<footer class="footer">
+			<h4>Powered by <a href="http://www.amberzile.com" target="_blank"><span>Amber<span>Zile</span></span></a></h4>
+		</footer>
+	</div>
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	  function initialize() {
+	    var mapCanvas = document.getElementById('map');
+	    var mapOptions = {
+	      center: new google.maps.LatLng(15.4776515,73.801693),
+	      zoom: 14,
+	      mapTypeId: google.maps.MapTypeId.ROADMAP
+	    }
+	    var map = new google.maps.Map(mapCanvas, mapOptions)
+	  }
+	  google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<script src="js/lib/jquery.scrollorama.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>

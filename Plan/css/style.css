@@ -36,10 +36,10 @@ section{
 	width: 100%;
 }
 header{
-	position: fixed;
 	width: 98%;
 	padding: 1%;
 	background-color: #222d2f;
+	border-bottom: 3px solid #fff;
 }
 header div{
 	display: inline-block;
@@ -77,54 +77,6 @@ header div{
 }
 .active:hover{
 	border-bottom: 3px solid #f1c40f !important;
-}
-.one{
-	background-color: rgba(34,34,34,0.7);
-}
-.one .center{
-	vertical-align: middle;
-	display: inline-block;
-	line-height: normal;
-	width: 70%;
-}
-.one h1{
-	font-size: 350%;
-	border-bottom: 2px solid #f1c40f;
-	text-align: left;
-}
-.one h3{
-	font-size: 150%;
-	text-align: right;
-}
-.two{
-	background-color: #f1c40f;
-	display: block;
-}
-.two div{
-	display: inline-block;
-}
-.two .left{
-	width: 34%;
-	padding: 4% 3%;
-	vertical-align: top;
-}
-.two .left h1{
-	font-size: 300%;
-	color: #222d2f;
-}
-.two .left h3{
-	font-size: 150%;
-	text-align: justify;
-}
-.two .right{
-	width: 59.5%;
-	padding: 4% 0;
-}
-.two img{
-	min-height: 370px;
-	border: 4px solid #fff;
-	border-right: none;
-	border-left: none;
 }
 .third{
 	display: block;
@@ -170,50 +122,12 @@ header div{
 	padding: 1% 5%;
 }
 .third li{
+	cursor: pointer;
 	display: inline-block;
 	width: 43%;
 	padding: 2% 1%;
 	margin: 1% 2%;
 	background-color: #e67e22;
-}
-.fourth{
-	background-color: #f1c40f;
-}
-.fourth h2{
-	padding: 2% 0;
-	color: #222d2f;
-}
-.contact{
-	background-color: #222d2f;
-	display: block;
-}
-.contact div{
-	display: inline-block;
-}
-#map{
-	width: 59.5%;
-	min-height: 400px;
-}
-.address{
-	width: 36%;
-	padding: 2%;
-	vertical-align: top;
-}
-.address h1{
-	font-size: 300%;
-	text-align: left;
-}
-.address h2{
-	text-align: left;
-}
-form input, form textarea{
-	text-align: left;
-	padding: 5px;
-	width: 90%;
-	margin: 1% 0;
-	margin-right: 10%;
-	border-radius: 6px;
-	color: #000;
 }
 .footer{
 	padding: 1% 0;
@@ -232,7 +146,4 @@ form input, form textarea{
 }
 .footer span:hover > span{
 	color: #27ae60;
-}
-.third, .three{
-	display: none;
 }

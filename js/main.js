@@ -1,9 +1,7 @@
 jQuery(document).ready(function($) {
 	$('.section').css('min-height', $(window).height());
-	// $('.m-section').css('min-height', $(window).height() - $('.menu').height());
 	$('.one').css('line-height', $(window).height() + "px");
-	// $('.third').css('line-height', $(window).height() + "px");
-	// $('.plan').css('line-height', $(window).height() + "px");
+	$('#map').css('min-height', $('.contact').height());
 });
 
 $(window).bind('scroll', function() {
