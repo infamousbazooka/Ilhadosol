@@ -19,7 +19,7 @@ a,ul,li,ol{
 	text-decoration: none;
 	color: #000;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,input,textarea{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	color: #fafafa;
@@ -106,9 +106,11 @@ header div{
 .two .left{
 	width: 34%;
 	padding: 4% 3%;
+	vertical-align: top;
 }
 .two .left h1{
 	font-size: 300%;
+	color: #222d2f;
 }
 .two .left h3{
 	font-size: 150%;
@@ -126,6 +128,9 @@ header div{
 }
 .third{
 	display: block;
+	padding: 3% 2%;
+	width: 96%;
+	background-color: #222d2f;
 }
 .third div{
 	display: inline-block;
@@ -133,6 +138,80 @@ header div{
 .third .left{
 	width: 60%;
 }
+.third .images{
+	display: block;
+}
+.third img{
+	display: inline-block;
+	width: 45.6%;
+	margin: 2%;
+}
 .third .right{
-	width: 39%;
+	vertical-align: top;
+	width: 96%;
+}
+.third h1, .third h2{
+	text-align: left;
+}
+.third a span{
+	border: 2px solid #fff;
+	float: left;
+	margin: 1% 0;
+	padding: 1%;
+	background-color: #f1c40f;
+}
+.third a span:hover{
+	background-color: #222d2f;
+	color: #fff;
+}
+.third ul{
+	display: block;
+	width: 90%;
+	padding: 1% 5%;
+}
+.third li{
+	display: inline-block;
+	width: 43%;
+	padding: 2% 1%;
+	margin: 1% 2%;
+	background-color: #e67e22;
+}
+.fourth{
+	background-color: #f1c40f;
+}
+.fourth h2{
+	padding: 2% 0;
+	color: #222d2f;
+}
+.contact{
+	background-color: #222d2f;
+	display: block;
+}
+.contact div{
+	display: inline-block;
+}
+#map{
+	width: 59.5%;
+	min-height: 400px;
+}
+.address{
+	width: 35.5%;
+	padding: 2%;
+	vertical-align: top;
+}
+.address h1{
+	font-size: 300%;
+	text-align: left;
+}
+.address h2{
+	text-align: left;
+}
+form input, form textarea{
+	text-align: left;
+	padding: 5px;
+	width: 90%;
+	margin: 1% 0;
+	margin-right: 10%;
+	border-radius: 6px;
+	color: #000;
 }
