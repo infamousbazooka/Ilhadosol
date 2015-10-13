@@ -111,9 +111,11 @@ header div{
 .two .left h1{
 	font-size: 300%;
 	color: #222d2f;
+	margin: 3% 0;
 }
 .two .left h3{
-	font-size: 150%;
+	font-size: 200%;
+	color: #222d2f;
 	text-align: justify;
 }
 .two .right{
