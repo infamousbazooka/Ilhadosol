@@ -7,10 +7,12 @@ jQuery(document).ready(function($) {
 $(window).bind('scroll', function() {
 	if ($(window).scrollTop() > 100) {
 		$('.logo').css('display', 'none');
-		$('header').css('backgroundColor', 'rgba(34,34,34,.8)');
+		$('header').css('position', 'fixed');
+		$('header').css('backgroundColor', 'rgba(34,45,47,.8)');
 	}
 	else {
 		$('.logo').css('display', 'inline-block');
-		$('header').css('backgroundColor', 'rgba(34,34,34,1)');
+		$('header').css('position', 'relative');
+		$('header').css('backgroundColor', 'rgba(34,45,47,1)');
 	}
 });

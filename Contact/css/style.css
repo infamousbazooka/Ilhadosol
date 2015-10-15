@@ -36,6 +36,7 @@ section{
 	width: 100%;
 }
 header{
+	position: relative;
 	width: 98%;
 	padding: 1%;
 	background-color: #222d2f;
@@ -48,17 +49,17 @@ header div{
 	height: 100%;
 }
 .logo{
-	width: 29.5%;
-}
-.logo h1{
-	font-size: 350%;
+	left: 0;
+	position: absolute;
+	width: 19.5%;
+	/*font-size: 350%;
 	font-family: 'Pinyon Script', cursive;
 	color: #f1c40f;
-	text-decoration: underline;
+	text-decoration: underline;*/
 }
 .menu{
 	margin: 0 3%;
-	width: 64%;
+	width: 74%;
 }
 .menu ul{
 	display: block;
@@ -101,7 +102,7 @@ header div{
 	vertical-align: top;
 }
 .address h1{
-	font-size: 300%;
+	font-size: 350%;
 	text-align: left;
 }
 .address h2{
