@@ -52,10 +52,6 @@ header div{
 	position: absolute;
 	width: 19.5%;
 	left: 0;
-	/*font-size: 350%;
-	font-family: 'Pinyon Script', cursive;
-	color: #f1c40f;
-	text-decoration: underline;*/
 }
 .menu{
 	margin: 0 3%;
@@ -90,11 +86,9 @@ header div{
 .one h1{
 	font-size: 500%;
 	border-bottom: 2px solid #f1c40f;
-	text-align: left;
 }
 .one h3{
 	font-size: 180%;
-	text-align: right;
 }
 .two{
 	background-color: #f1c40f;
@@ -146,4 +140,40 @@ header div{
 }
 .footer span:hover > span{
 	color: #27ae60;
+}
+@media screen and (max-width: 800px) {
+	.logo{
+		width: 100%;
+		position: relative;
+	}
+	.menu{
+		position: relative !important;
+	}
+	.menu li{
+		width: 100%;
+		margin: 0;
+	}
+	.one h1{
+		font-size: 150%;
+		border-bottom: 2px solid #f1c40f;
+	}
+	.one h3{
+		font-size: 120%;
+	}
+	.two .left h1{
+		font-size: 170%;
+	}
+	.two .left h3{
+		font-size: 120%;
+	}
+	.two .left{
+		width: 92%;
+	}
+	.two .right{
+		width: 92%;
+		padding: 4%;
+	}
+	.two img{
+		min-height: auto;
+	}
 }

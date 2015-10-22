@@ -135,3 +135,33 @@ form input, form textarea{
 .footer span:hover > span{
 	color: #27ae60;
 }
+@media screen and (max-width: 800px) {
+	.logo{
+		width: 100%;
+		position: relative;
+	}
+	.menu li{
+		width: 100%;
+		margin: 0;
+	}
+	#map{
+		width: 100%;
+		min-height: 200px !important;
+		height: 250px !important;
+	}
+	.address{
+		width: 96%;
+		padding: 2%;
+	}
+	.address h1{
+		font-size: 150%;
+	}
+	.address h2{
+		font-size: 120%;
+	}
+	form input, form textarea{
+		padding: 0;
+		width: 92%;
+		margin: 4%;
+	}
+}
